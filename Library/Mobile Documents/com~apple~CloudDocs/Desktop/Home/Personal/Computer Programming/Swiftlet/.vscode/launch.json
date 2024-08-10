@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:Swiftlet}",
+      "name": "Debug Swiftlet",
+      "program": "${workspaceFolder:Swiftlet}/.build/debug/Swiftlet",
+      "preLaunchTask": "swift: Build Debug Swiftlet"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:Swiftlet}",
+      "name": "Release Swiftlet",
+      "program": "${workspaceFolder:Swiftlet}/.build/release/Swiftlet",
+      "preLaunchTask": "swift: Build Release Swiftlet"
+    }
+  ]
+}

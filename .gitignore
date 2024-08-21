@@ -1,0 +1,42 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Django-specific files
+*.sqlite3
+db.sqlite3
+*.log
+
+# Environment variables
+.env
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# MySQL database file (if you use MySQL and have a dump)
+*.sql

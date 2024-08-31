@@ -1,4 +1,6 @@
 from django.db import models
+from users.models import User
+from pnm.models import PNM
 
 class Vote(models.Model):
     voter = models.ForeignKey(User, on_delete=models.CASCADE)
